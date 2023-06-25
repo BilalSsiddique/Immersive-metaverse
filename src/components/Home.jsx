@@ -3,7 +3,7 @@ import Video from "./Video";
 
 const Home = () => {
   return (
-    <div className="flex relative flex-col h-screen w-11/12 sm:mx-auto mx-5">
+    <div className="flex relative flex-col  w-full h-screen">
       {/* Header */}
       <Header />
       {/* Left Menu */}
@@ -62,12 +62,9 @@ const Home = () => {
         <img src="/heading.svg" alt="" width={600} height={600} />
       </div>
       {/* Bottom Text */}
-      <div className="flex   items-center  gap-5">
-        <img src="/textIcon.svg" alt="" width={34} height={34} />
-        <p className="opacity-70 leading-7 ">
-          UTILIZING METAFI, UE5, AND WEB3 TECHNOLOGY TO <br />
-          CREATE A SOCIAL AND IMMERSIVE GAMING METAVERSE.
-        </p>
+      <div className="flex  ml-5 items-center  gap-5">
+        <img src="/textIcon.svg" alt="" width={34} height={34}/>
+        <p className="opacity-70 leading-7 ">UTILIZING METAFI, UE5, AND WEB3 TECHNOLOGY TO <br/>CREATE A SOCIAL AND IMMERSIVE GAMING METAVERSE.</p>
       </div>
     </div>
   );
