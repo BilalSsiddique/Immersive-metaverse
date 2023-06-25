@@ -3,7 +3,7 @@ import Video from "./Video";
 
 const Home = () => {
   return (
-    <div className="flex flex-col h-screen w-full">
+    <div className="flex relative flex-col h-screen w-full">
       {/* Header */}
       <Header />
       {/* background image */}
@@ -34,6 +34,17 @@ const Home = () => {
       <div className="md:absolute top-[40%] right-5">
         <Video />
       </div>
+      {/* Heading */}
+      <div className="absolute left-60 bottom-20">
+        <img src="/heading.svg" alt="" width={700} height={600} />
+      </div>
+      {/* Bottom Text */}
+      <div className="flex   items-center  gap-5">
+        <img src="/textIcon.svg" alt="" width={34} height={34}/>
+        <p className="opacity-70 leading-7 ">UTILIZING METAFI, UE5, AND WEB3 TECHNOLOGY TO <br/>CREATE A SOCIAL AND IMMERSIVE GAMING METAVERSE.</p>
+      </div>
+
+
 
     </div>
   );
