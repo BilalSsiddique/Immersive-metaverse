@@ -3,7 +3,7 @@ import Video from "./Video";
 
 const Home = () => {
   return (
-    <div className="flex relative flex-col  w-full h-screen">
+    <div className="flex relative flex-col  w-11/12 sm:mx-auto mx-5 h-screen">
       {/* Header */}
       <Header />
       {/* Left Menu */}
