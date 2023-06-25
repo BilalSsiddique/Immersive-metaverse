@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <div className="px-8 py-8 mx-auto  md:max-w-[112rem]   xl:px-8">
+    <div className=" py-8  ">
       <div className="relative border border-gray-50 border-opacity-20 px-2  gap-2 flex justify-between">
           {/* Logo */}
           <div className="flex ">

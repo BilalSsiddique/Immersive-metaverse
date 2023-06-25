@@ -14,10 +14,10 @@ const Video = () => {
 
   return (
     <div className="">
-      <div className="relative flex max-w-[320px]">
+      <div className="relative flex sm:justify-end max-w-[260px]">
         <svg
-          width="320"
-          height="320"
+          width="260"
+          height="260"
           viewBox="0 0 497 559"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

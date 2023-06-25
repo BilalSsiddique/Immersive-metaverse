@@ -3,9 +3,32 @@ import Video from "./Video";
 
 const Home = () => {
   return (
-    <div className="flex relative flex-col h-screen w-full">
+    <div className="flex relative flex-col h-screen w-11/12 sm:mx-auto mx-5">
       {/* Header */}
       <Header />
+      {/* Left Menu */}
+      <div className="flex absolute top-32 flex-col gap-2 mt-20 justify-start w-fit  ">
+        <div className="flex justify-start gap-2 items-center  w-fit  pr-14 ">
+          <img src="/lineIcon.svg" alt="" />
+          <p>MAP</p>
+        </div>
+        <div className="flex justify-start gap-2 items-center  w-fit  pr-14 ">
+          <img src="/lineIcon.svg" alt="" />
+          <p>MISSIONS</p>
+        </div>
+        <div className="flex justify-start gap-2 items-center  w-fit  pr-14 ">
+          <img src="/lineIcon.svg" alt="" />
+          <p>CHARACTERS</p>
+        </div>
+        <div className="flex justify-start gap-2 items-center  w-fit  pr-14 ">
+          <img src="/lineIcon.svg" alt="" />
+          <p>LOADOUTS</p>
+        </div>
+        <div className="flex justify-start gap-2 items-center  w-fit  pr-14 ">
+          <img src="/lineIcon.svg" alt="" />
+          <p>EVENTS</p>
+        </div>
+      </div>
       {/* background image */}
       <div className=" flex place-content-center w-full">
         <img src="/background-image.svg" className="relative h-screen" />
@@ -31,21 +54,21 @@ const Home = () => {
         />
       </div>
       {/* Video */}
-      <div className="md:absolute top-[49%] right-5">
+      <div className="md:absolute top-[53%] right-0">
         <Video />
       </div>
       {/* Heading */}
-      <div className="absolute left-60 bottom-20">
-        <img src="/heading.svg" alt="" width={700} height={600} />
+      <div className="absolute top-[68%] left-44 bottom-20">
+        <img src="/heading.svg" alt="" width={600} height={600} />
       </div>
       {/* Bottom Text */}
       <div className="flex   items-center  gap-5">
-        <img src="/textIcon.svg" alt="" width={34} height={34}/>
-        <p className="opacity-70 leading-7 ">UTILIZING METAFI, UE5, AND WEB3 TECHNOLOGY TO <br/>CREATE A SOCIAL AND IMMERSIVE GAMING METAVERSE.</p>
+        <img src="/textIcon.svg" alt="" width={34} height={34} />
+        <p className="opacity-70 leading-7 ">
+          UTILIZING METAFI, UE5, AND WEB3 TECHNOLOGY TO <br />
+          CREATE A SOCIAL AND IMMERSIVE GAMING METAVERSE.
+        </p>
       </div>
-
-
-
     </div>
   );
 };
