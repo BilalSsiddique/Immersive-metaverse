@@ -31,8 +31,11 @@ const Home = () => {
         />
       </div>
       {/* Video */}
-      <div className="md:absolute top-[40%] right-5">
+      <div className="md:absolute top-[49%] right-5">
         <Video />
+      </div>
+      <div className="">
+
       </div>
 
     </div>

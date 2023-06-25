@@ -2,16 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: black;
   height: 100vh;
   color: white;
+
+  cursor: url("../public/cursor.svg"), auto;
 }
 
 /* 
@@ -19,6 +21,6 @@ body{
    clip-path: polygon(0 3%, 22% 0, 31% 8%, 69% 8%, 80% 0, 100% 2%, 100% 100%, 80% 100%, 72% 92%, 31% 92%, 25% 100%, 0 100%);
 } */
 
-.custom-shape{
-background-clip: content-box;
+.custom-shape {
+  background-clip: content-box;
 }
