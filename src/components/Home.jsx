@@ -1,9 +1,11 @@
-import React from "react";
+import Header from "./Header";
 import Video from "./Video";
 
 const Home = () => {
   return (
     <div className="flex flex-col h-screen w-full">
+      {/* Header */}
+      <Header />
       {/* background image */}
       <div className=" flex place-content-center w-full">
         <img src="/background-image.svg" className="relative h-screen" />
@@ -32,6 +34,7 @@ const Home = () => {
       <div className="md:absolute top-[40%] right-5">
         <Video />
       </div>
+
     </div>
   );
 };
